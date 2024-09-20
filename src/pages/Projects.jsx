@@ -50,7 +50,7 @@ const Projects = () => {
         <FaBootstrap key="bootstrap" className="text-blue-500" />,
         <TbJson key="json" className="text-orange-700" />,
       ],
-      liveLink: "infohub123.netlify.app/",
+      liveLink: "https://infohub123.netlify.app//",
       github: "https://github.com/rajatsah95/Tesla_Techies_038",
     },
     {
