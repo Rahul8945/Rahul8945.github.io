@@ -6,7 +6,6 @@ import Resume from "./Resume";
 
 const About = () => {
   const lines = [
-    "Name: Rahul Gupta, Full-Stack Web Developer #",
     "Background: Transitioned from Civil Engineering to Web Development #",
     "Education: 35-week Full-Stack Web Development course at Masai School",
     "Approach: Solve problems, create value, continuous learning",
@@ -17,7 +16,7 @@ const About = () => {
 
   return (
     <section
-      className="flex justify-center items-center flex-col gap-y-8 h-[100vh] mt-[5em] sm:mt-[5em] mb-[4em]"
+      className="flex justify-center items-center flex-col gap-y-8 h-[100vh] mt-[5em] sm:mt-[5em] mb-[4em] section-scroll"
       id="about-section"
     >
       <div>

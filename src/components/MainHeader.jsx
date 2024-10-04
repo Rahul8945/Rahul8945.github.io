@@ -33,11 +33,7 @@ const navigation = [
     name: "Skills",
     icon: <SlBadge />,
   },
-  {
-    to: "#education-section",
-    name: "Education",
-    icon: <PiGraduationCap />,
-  },
+  
   {
     to: "#contact-section",
     name: "Contact",
@@ -45,6 +41,11 @@ const navigation = [
   },
  
 ];
+// {
+//   to: "#education-section",
+//   name: "Education",
+//   icon: <PiGraduationCap />,
+// },
 
 export const MainHeader = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -42,7 +42,9 @@
   color: #888;
 }
 
-
+.section-scroll {
+  scroll-margin-top: 100px; /* Set the offset for smooth scrolling */
+}
 
 
 

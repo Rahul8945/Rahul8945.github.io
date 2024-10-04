@@ -104,7 +104,7 @@ const SkillImage = styled.img`
 
 const Skills = () => {
   return (
-    <Container id="skills-section" className="mt-40">
+    <Container id="skills-section" className="mt-40 section-scroll">
       <Wrapper>
         <p className="text-slate-400 text-3xl sm:text-6xl hover:text-slate-300 duration-300">
           Skills

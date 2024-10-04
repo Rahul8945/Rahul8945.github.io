@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <section
-      className="flex justify-center flex-col items-center mt-[10em] gap-y-20 relative"
+      className="flex justify-center flex-col items-center mt-[10em] gap-y-20 relative section-scroll"
       id="contact-section"
     >
       <div

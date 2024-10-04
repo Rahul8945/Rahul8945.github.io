@@ -10,6 +10,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 import { useTypingEffect } from "../typing/useTypingEffect";
+import Random from "./random";
 
 
 let imageRow = [
@@ -22,16 +23,7 @@ let imageRow = [
 ];
 
 let quotes = [
- "A wise coder knows that the best way to avoid bugs is to avoid assumptions—like crossing a one-way street.",
-"Programming is 10% writing code and 90% figuring out why you wrote it that way.",
-"It runs perfectly on my machine, so clearly, the universe is the problem.",
-"I’m not failing; I’m just debugging in reverse.",
-"Step one: Eat. Step two: Code. Step three: Sleep, Repeat.",
-"There are two kinds of hard things in tech: cache invalidation, naming variables, and getting the boss to approve your vacation.",
-"The code was crystal clear when I wrote it. Now, it looks like an ancient mystery.",
-"Step one: stare at the bug. Step two: panic. Step three: fix the code, probably.",
-"I’m great at giving advice—sarcasm is just a bonus feature.",
-"Programmer: Powered by caffeine, fueled by endless loops.",
+ "Full Stack Web Developer skilled in creating dynamic, visually appealing websites with seamless user experiences. Proficient in frontend technologies like React and backend frameworks like Node.js, I build responsive interfaces and robust server-side systems. I thrive on delivering efficient, scalable solutions tailored to client needs."
 ];
 
 let salutation = ["Hello! I'm Rahul Gupta"];
@@ -77,7 +69,7 @@ const Home = () => {
           className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#FFA500] to-[#FF4500] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
         />
       </div>
-      <div className="mx-auto max-w-6xl py-32 sm:py-32">
+      <div className="mx-auto max-w-6xl py-32 sm:pt-32 sm:pb-0">
         <div className="text-center ">
           <h1
             className="text-4xl tracking-tight text-white md:text-6xl "
@@ -96,7 +88,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="main-carousel">
+      {/* <div id="main-carousel">
         <Marquee speed={200} gradientColor={"white"} pauseOnHover={true}>
           {imageRow.map((ele, index) => (
             <div key={index} className="m-10 w-[80%] ">
@@ -111,8 +103,8 @@ const Home = () => {
             </div>
           ))}
         </Marquee>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <Marquee speed={200} direction={"right"} pauseOnHover={true}>
           <div className="flex gap-x-24  text-white text-xl">
             {skills.map((ele, index) => (
@@ -122,9 +114,9 @@ const Home = () => {
             ))}
           </div>
         </Marquee>
-      </div>
+      </div> */}
 
-      <div>
+      {/* <div>
         <Marquee speed={100} direction={"left"} pauseOnHover={true}>
           <div
             className="flex gap-x-48 text-white text-xl mt-10 opacity-40"
@@ -141,7 +133,8 @@ const Home = () => {
             <SiChakraui />
           </div>
         </Marquee>
-      </div>
+      </div> */}
+      {/* <Random/> */}
 
       <div
         aria-hidden="true"

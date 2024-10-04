@@ -68,23 +68,23 @@ const Projects = () => {
     },
     {
       id: 5,
-      image: "https://i.ibb.co/7RVY3F4/Screenshot-2024-09-19-082032.png",
-      name: "Viatour",
-      desc: "Viatour is a visually appealing static page designed for showcasing travel experiences, built with HTML, CSS, Bootstrap, and SASS. It features a responsive layout and engaging design elements for an enhanced user experience.....",
+      image: "https://i.ibb.co/pXKV7Rs/Screenshot-2024-09-20-083210.png",
+      name: "Shayari",
+      desc: "A Shayari Generator web application that leverages Google Gemini AI to create beautiful and personalized Shayari (poetry) in Hindi based on keywords provided by the user. The app features an interactive user interface built with React and Chakra UI and includes....",
       techStacks: [
         <FaBootstrap key="bootstrap" className="text-yellow-400" />,
         <FaCss3Alt key="css" className="text-blue-500" />,
         <FaHtml5 key="html" className="text-red-500" />,
       ],
-      liveLink: "https://viatour.netlify.app/",
-      github: "https://github.com/vibhor121/Brahmaputra-Function-003",
+      liveLink: "https://shayari-gemini.netlify.app/",
+      github: "https://github.com/Rahul8945/Shayari",
     },
   ];
 
   return (
     <>
       <section
-        className="flex justify-center flex-col items-center gap-y-[100px]"
+        className="flex justify-center flex-col items-center gap-y-[100px] section-scroll"
         id="projects-section"
       >
         <div
@@ -119,7 +119,7 @@ const Projects = () => {
         >
           <div className="md:flex">
             <div className="p-8">
-              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              <div className="uppercase tracking-wide text-2xl text-indigo-500 font-semibold">
                 {projectDetails[0].name}
               </div>
 
@@ -183,7 +183,7 @@ const Projects = () => {
               />
             </div>
             <div className="p-8">
-              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              <div className="uppercase tracking-wide text-2xl text-indigo-500 font-semibold">
                 {projectDetails[1].name}
               </div>
 
@@ -236,7 +236,7 @@ const Projects = () => {
         >
           <div className="md:flex">
             <div className="p-8">
-              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              <div className="uppercase tracking-wide text-2xl text-indigo-500 font-semibold">
                 {projectDetails[2].name}
               </div>
 
@@ -303,7 +303,7 @@ const Projects = () => {
               />
             </div>
             <div className="p-8">
-              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              <div className="uppercase tracking-wide text-2xl text-indigo-500 font-semibold">
                 {projectDetails[3].name}
               </div>
 
